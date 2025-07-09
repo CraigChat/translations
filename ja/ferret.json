@@ -26,7 +26,7 @@
     "recording": {
         "reveal_duration": "接続時間",
         "delete": "録音を削除",
-        "expires_in": "{expiry}後に期限切れ",
+        "expires_in": "{expiry}に期限切れ",
         "recording_id": "録音ID",
         "recording_date": "録音日時:{date, date, all}",
         "via_bot": "{bot}を使用",
@@ -120,7 +120,7 @@
             "fail": "アバターのダウンロードに失敗しました。"
         },
         "exclude_user": {
-            "name": "除外されたユーザー",
+            "name": "ユーザーを除外",
             "all_excluded_warning": "最低でも1人が含まれている必要があります。",
             "count": "{count, number}人が除外されています",
             "exclude_from_normalization": "ノーマライズからユーザーを除外",
