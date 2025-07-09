@@ -48,8 +48,10 @@
         "change_to": "Change to {mode}"
     },
     "download": {
+        "no_users": "No users in recording.",
         "show_all_formats": "Show all formats",
         "active_download_description": "A download is currently being processed, and must be finished before downloading again.",
+        "no_users_description": "No users are in this recording yet. People are added into the recording when they speak. Check the recording panel to confirm when someone is in the recording. If there are issues, switch the voice region or restart the recording.",
         "wdiu": {
             "name": "Which do I use?",
             "content": "Buttons under Multi-track will export your recording in a ZIP file with each track, or sound file, having each persons voice in it, already synced up to each other.\n\nButtons under Single-track will merge all those tracks into one file.\n\nIf you want an easy way to edit your audio, you can install and use {audacity} (or any forks of it) and download the Audacity Project format.\n\nIf you are an Apple user, you may want to use the {aac} format.\n\nIn all other cases, {flac} is a widely supported format that will work best for you."
