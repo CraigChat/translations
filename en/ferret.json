@@ -14,7 +14,8 @@
         "show_all": "Show all",
         "show_less": "Show less",
         "language": "Language",
-        "app": "App"
+        "app": "App",
+        "new": "New"
     },
     "recording": {
         "reveal_duration": "Reveal Duration",
@@ -63,7 +64,8 @@
             "mt": "Multi-track",
             "st": "Single-track",
             "stsm": "Single-track Smart Mix",
-            "local_processing": "Local Processing"
+            "local_processing": "Local Processing",
+            "transcription": "Transcription"
         },
         "format_buttons": {
             "audacity": "Audacity Project",
@@ -71,7 +73,9 @@
             "win_executable": "Windows Executable",
             "mac_script": "Mac Script",
             "unix_script": "Unix Script",
-            "other": "Other"
+            "other": "Other",
+            "plain_text": "Plain Text",
+            "srt": "SubRip Text"
         },
         "modal": {
             "header": "Ready to download?",
@@ -84,7 +88,10 @@
                 "script": "Craig will create an audio processor script that allows you to process your audio however you'd like. Extract the contents of the ZIP file before running the script.",
                 "linux_script": "Craig will create an audio processor script that allows you to process your audio however you'd like. Extract the contents of the ZIP file before running the script. You will need to have FFMpeg installed on your device.",
                 "raw": "This downloads the raw.dat file that is usually included with every multi-track download. This is the raw Opus data received by Craig. Most audio programs may not properly support this.",
-                "infotxt": "This downloads the info.txt file that is usually included with every multi-track download. This gives general information about the recording."
+                "infotxt": "This downloads the info.txt file that is usually included with every multi-track download. This gives general information about the recording.",
+                "transcription_txt": "This makes a plain text transcription file for everyone in the recording. Each line says the speaker's name along with the line they spoke in order.",
+                "transcription_vtt": "This makes a WebVTT transcription file for everyone in the recording. This also includes per-word timings for each speaker. WebVTT is a widely supported format for modern software.",
+                "transcription_srt": "This makes a SubRip Text transcription file for everyone in the recording. SubRip Text (or SRT) is a widely supported format."
             },
             "normalize_audio": "Normalize audio"
         },
@@ -148,6 +155,7 @@
         "removed_job": "Removed download.",
         "too_many_connections": "Too many users are viewing this recording right now. Live updates are disabled and updates may take longer to show up.",
         "polling_warning": "Changes to this process may not be immediate as there are too many users viewing it.",
+        "transcription_queued": "Transcription Request Queued",
         "status": {
             "queued": "Queued",
             "cancelled": "Download Cancelled",
@@ -161,6 +169,7 @@
             "encoding": "Encoding…",
             "writing": "Writing…",
             "uploading": "Uploading…",
+            "transcribing": "Transcribing…",
             "finalizing": "Finalizing…"
         },
         "track_state": {
