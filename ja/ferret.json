@@ -67,7 +67,8 @@
             "mt": "マルチトラック",
             "st": "シングルトラック",
             "stsm": "シングルトラック、スムーズ合成",
-            "local_processing": "ローカル処理"
+            "local_processing": "ローカル処理",
+            "transcription": "字幕"
         },
         "format_buttons": {
             "audacity": "Audacityプロジェクト",
@@ -75,7 +76,8 @@
             "win_executable": "Windows実行ファイル",
             "unix_script": "Unixスクリプト",
             "other": "その他",
-            "mac_script": "Macスクリプト"
+            "mac_script": "Macスクリプト",
+            "plain_text": "そのままのテキスト"
         },
         "modal": {
             "header": "ダウンロードしますか？",
@@ -127,7 +129,8 @@
             "all_excluded_normalization_warning": "もし誰かをノーマライズから除外したければ、ノーマライズをオフにするだけです！"
         },
         "active_download_description": "ダウンロードは処理中です。再度ダウンロードする前には完了します。",
-        "no_users": "録音中のユーザーはいません。"
+        "no_users": "現在録音されているユーザーはいません。",
+        "no_users_description": "現在ユーザーは録音されていません。発言をするとユーザーが追加されます。録音パネルを確認して誰か録音されているか確認しましょう。もし問題があればボイスチャンネルの地域を変更して再度録音を開始してください。"
     },
     "notification": {
         "body": "{guild}用の録音",
