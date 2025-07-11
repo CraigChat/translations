@@ -126,7 +126,8 @@
             "exclude_from_normalization": "ノーマライズからユーザーを除外",
             "all_excluded_normalization_warning": "もし誰かをノーマライズから除外したければ、ノーマライズをオフにするだけです！"
         },
-        "active_download_description": "ダウンロードは処理中です。再度ダウンロードする前には完了します。"
+        "active_download_description": "ダウンロードは処理中です。再度ダウンロードする前には完了します。",
+        "no_users": "録音中のユーザーはいません。"
     },
     "notification": {
         "body": "{guild}用の録音",
