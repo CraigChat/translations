@@ -79,7 +79,8 @@
                 "infotxt": "Bu, genellikle her çok parçalı indirmeye dahil edilen info.txt dosyasını indirir. Bu, kayıt hakkında genel bilgi verir.",
                 "transcription_vtt": "Bu, kayıttaki herkes için bir WebVTT deşifre dosyası oluşturur. Bu, her konuşmacı için kelime başına zamanlamaları da içerir. WebVTT, modern yazılımlar için yaygın olarak desteklenen bir formattır."
             },
-            "normalize_audio": "Sesi normalleştir"
+            "normalize_audio": "Sesi normalleştir",
+            "runpod_warn": "Deşifre işlemlerini {whisper} kullanarak işlemek için {runpod} kullanıyoruz. Onların şartlarına tabi olabilirsiniz."
         },
         "show_all_formats": "Tüm formatları göster",
         "active_download_description": "Bir indirme işlemi şuan gerçekleşiyor, ve başka bir şey indirmeden önce bitirilmeli.",
