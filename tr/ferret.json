@@ -14,7 +14,8 @@
         "show_all": "Hepsini göster",
         "show_less": "Daha az göster",
         "language": "Dil",
-        "app": "UYG"
+        "app": "UYG",
+        "new": "Yeni"
     },
     "recording": {
         "delete": "Kaydı Sil",
@@ -43,7 +44,8 @@
             "st": "Tek Parça",
             "stsm": "Tek Parça Akıllı Mix",
             "local_processing": "Yerel işleme",
-            "audio": "Ses"
+            "audio": "Ses",
+            "transcription": "Deşifre"
         },
         "format_buttons": {
             "audacity": "Audacity Projesi",
@@ -51,7 +53,9 @@
             "unix_script": "Unix Komut Dosyası",
             "other": "Diğer",
             "adobe_audition": "Adobe Audition Dosyası",
-            "mac_script": "Mac Komut Dosyası"
+            "mac_script": "Mac Komut Dosyası",
+            "srt": "SubRip Metin",
+            "plain_text": "Düz Metin"
         },
         "ennuizel_modal": {
             "header": "Kırmızı tuşlara dikkat et!",
@@ -68,7 +72,12 @@
                 "zip": "Kullanıcıların sesleri {file} dosyalarına ayrıştırılır.",
                 "executable": "Craig, sesinizin içine yerleştirileceği taşınabilir bir yürütülebilir dosya oluşturacaktır. Yürütülebilir dosyayı çalıştırmak ses verilerini istediğiniz gibi işlemenize olanak tanıyacaktır. Bu yürütülebilir dosya imzalı olmadığından, anti-virüs programlarına yanlış pozitifler verebileceğini unutmayın.",
                 "script": "Craig, sesinizi istediğiniz gibi işlemenizi sağlayan bir ses işlemci komut dosyası oluşturacaktır. Komut dosyasını çalıştırmadan önce ZIP dosyasının içeriğini ayıklayın.",
-                "linux_script": "Craig, sesinizi istediğiniz gibi işlemenizi sağlayan bir ses işlemci komut dosyası oluşturacaktır. Komut dosyasını çalıştırmadan önce ZIP dosyasının içeriğini ayıklayın. Cihazınızda FFMpeg'in yüklü olması gerekecektir."
+                "linux_script": "Craig, sesinizi istediğiniz gibi işlemenizi sağlayan bir ses işlemci komut dosyası oluşturacaktır. Komut dosyasını çalıştırmadan önce ZIP dosyasının içeriğini ayıklayın. Cihazınızda FFMpeg'in yüklü olması gerekecektir.",
+                "raw": "Bu, genellikle her çok parçalı indirmeye dahil edilen raw.dat dosyasını indirir. Bu Craig tarafından alınan ham Opus verisidir. Çoğu ses programı bunu düzgün bir şekilde desteklemeyebilir.",
+                "transcription_txt": "Bu, kayıttaki herkes için bir düz metin deşifre dosyası oluşturur. Her satırda konuşmacının adı ve konuştuğu satır sırayla yazılır.",
+                "transcription_srt": "Bu, kayıttaki herkes için bir SubRip Metin deşifre dosyası oluşturur. SubRip Text (veya SRT) yaygın olarak desteklenen bir formattır.",
+                "infotxt": "Bu, genellikle her çok parçalı indirmeye dahil edilen info.txt dosyasını indirir. Bu, kayıt hakkında genel bilgi verir.",
+                "transcription_vtt": "Bu, kayıttaki herkes için bir WebVTT deşifre dosyası oluşturur. Bu, her konuşmacı için kelime başına zamanlamaları da içerir. WebVTT, modern yazılımlar için yaygın olarak desteklenen bir formattır."
             },
             "normalize_audio": "Sesi normalleştir"
         },
@@ -102,8 +111,12 @@
         "exclude_user": {
             "name": "Kullanıcı Hariç Et",
             "all_excluded_warning": "En az bir kullanıcı dahil edilmeli.",
-            "count": "{count, plural,\n  one {{count, number} kullanıcı dahil edilmiyor}\n  other {{count, number} kullanıcı dahil edilmiyor}\n}"
-        }
+            "count": "{count, plural,\n  one {{count, number} kullanıcı dahil edilmiyor}\n  other {{count, number} kullanıcı dahil edilmiyor}\n}",
+            "exclude_from_normalization": "Kullanıcıları normalizasyon'dan hariç et",
+            "all_excluded_normalization_warning": "Eğer herkesi normalizasyondan hariç tutmak istiyorsan, direk normalizasyonu kapat!"
+        },
+        "no_users": "Kayıtta kullanıcı bulunmuyor.",
+        "no_users_description": "Bu kayıtta henüz hiçbir kullanıcı yok. Kullanıcılar konuştuklarında kayda eklenirler. Birinin kayıtta olduğunu onaylamak için kayıt panelini kontrol edin. Sorun varsa, ses bölgesini değiştirin veya kaydı yeniden başlatın."
     },
     "avatar_overlays": {
         "options": {
@@ -168,7 +181,8 @@
             "writing": "Yazılıyor…",
             "uploading": "Yükleniyor…",
             "finalizing": "Sonuçlandırılıyor…",
-            "processing": "İşleniyor…"
+            "processing": "İşleniyor…",
+            "transcribing": "Deşifreleniyor…"
         },
         "track_state": {
             "waiting": "Bekleniyor…",
@@ -181,7 +195,8 @@
             "started": "{time} önce başlandı"
         },
         "too_many_connections": "Şu anda çok fazla kullanıcı bu kaydı görüntülüyor. Canlı güncellemeler devre dışı bırakılmıştır ve güncellemelerin gösterilmesi daha uzun sürebilir.",
-        "polling_warning": "Çok fazla kullanıcı tarafından görüntülendiği için bu süreçteki değişiklikler hemen yapılamayabilir."
+        "polling_warning": "Çok fazla kullanıcı tarafından görüntülendiği için bu süreçteki değişiklikler hemen yapılamayabilir.",
+        "transcription_queued": "Deşifre İsteği Sıraya Eklendi"
     },
     "errors": {
         "no_key": "Bir anahtar gerekli.",
