@@ -93,7 +93,8 @@
                 "transcription_vtt": "This makes a WebVTT transcription file for everyone in the recording. This also includes per-word timings for each speaker. WebVTT is a widely supported format for modern software.",
                 "transcription_srt": "This makes a SubRip Text transcription file for everyone in the recording. SubRip Text (or SRT) is a widely supported format."
             },
-            "normalize_audio": "Normalize audio"
+            "normalize_audio": "Normalize audio",
+            "runpod_warn": "We use {runpod} to handle processing transcriptions using {whisper}. You may be subject to their terms."
         },
         "ennuizel_modal": {
             "header": "Beware of the red buttons!",
