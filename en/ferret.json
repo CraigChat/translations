@@ -15,7 +15,8 @@
         "show_less": "Show less",
         "language": "Language",
         "app": "App",
-        "new": "New"
+        "new": "New",
+        "dismiss": "Dismiss"
     },
     "recording": {
         "reveal_duration": "Reveal Duration",
@@ -211,5 +212,9 @@
         "beta": "This is a beta version of the new download page! Join the {support_server} to report issues.",
         "privacy": "Privacy Policy",
         "tos": "Terms of Service"
+    },
+    "survey": {
+      "text": "Please take this quick survey and give some feedback about Craig.",
+      "cta": "Take the Survey"
     }
 }
