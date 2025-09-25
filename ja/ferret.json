@@ -98,7 +98,8 @@
                 "transcription_vtt": "これは全員分のWebVTT形式の字幕です。発言者、単語ごとの発話タイミングが含まれています。WebVTTはモダンなソフトウェアで広くサポートされています。",
                 "transcription_srt": "これは全員分のSubRip形式の字幕です。SubRip、またはSRT形式は広くサポートされています。"
             },
-            "normalize_audio": "音声をノーマライズ"
+            "normalize_audio": "音声をノーマライズ",
+            "runpod_warn": "私たちは {runpod} で {whisper} の文字起こし処理を実行しています。ご利用の際、各サービスの利用規約が適用される可能性があります。"
         },
         "avatar_overlays": {
             "options": {
@@ -174,7 +175,8 @@
             "writing": "書き込み中…",
             "uploading": "アップロード中…",
             "finalizing": "最終調整中…",
-            "encoding": "エンコード中…"
+            "encoding": "エンコード中…",
+            "transcribing": "文字起こし中…"
         },
         "track_state": {
             "waiting": "待機中…",
@@ -187,7 +189,8 @@
             "processed": "{time}に処理"
         },
         "download_complete": "ダウンロード処理が完了しました。まもなくダウンロードを促すメッセージが表示されます。録画のダウンロードを促すメッセージが表示されない場合は、下の「ダウンロード」ボタンをクリックしてください。",
-        "tracks_status": "{finishedCount, number}トラック完了、{waitingCount, number}トラック待機中"
+        "tracks_status": "{finishedCount, number}トラック完了、{waitingCount, number}トラック待機中",
+        "transcription_queued": "文字起こしのリクエストが待機列に入りました"
     },
     "errors": {
         "generic": {
@@ -209,5 +212,9 @@
         "invalid_delete_key": "削除キーが無効です。",
         "unknown": "不明なエラーが発生しました。後で試してください。",
         "invalid_body": "誤ったリクエストがサーバーに送信されました。通常このメッセージが表示されることはありません。問題が解決しない場合はページを再読み込みしてください。"
+    },
+    "survey": {
+        "text": "Craigをより良くするための簡単なアンケートにご協力ください。",
+        "cta": "アンケートに協力"
     }
 }
