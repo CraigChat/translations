@@ -185,6 +185,18 @@
             "processed": "Processed {time}"
         }
     },
+    "supporter_block": {
+        "tiers": {
+            "0": "No Supporter Tier",
+            "10": "Tier 1 Supporter",
+            "20": "Tier 2 Supporter",
+            "30": "Tier 3 Supporter",
+            "100": "MP3 God",
+            "-1": "Greater Weasel"
+        },
+        "feature_available_in": "This feature is available in {tier}.",
+        "cta": "Become a Supporter!"
+    },
     "errors": {
         "generic": {
             "duration": "An issue occurred when trying to get the duration of the recording, try again later."
