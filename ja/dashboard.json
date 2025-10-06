@@ -1,1 +1,37 @@
-{}
+{
+    "name": "日本語",
+    "footer": {
+        "privacy": "プライバシーポリシー",
+        "tos": "利用規約"
+    },
+    "common": {
+        "cancel": "キャンセル",
+        "delete": "削除",
+        "remove": "取り除く",
+        "okay": "了解",
+        "download": "ダウンロード",
+        "nevermind": "やっぱりやめる",
+        "language": "言語",
+        "avatar": "アバター",
+        "close": "閉じる",
+        "loading": "読み込み中…",
+        "dismiss": "無視する"
+    },
+    "format_sections": {
+        "mt": "マルチトラック",
+        "stsm": "シングルトラック、スムーズ合成"
+    },
+    "format_buttons": {
+        "audacity": "Audacityプロジェクト",
+        "adobe_audition": "Adobeオーディションセッション"
+    },
+    "errors": {
+        "invalid_format": "誤った形式です。",
+        "unknown": "不明なエラーが発生しました。後で試してください。",
+        "invalid_body": "誤ったリクエストがサーバーに送信されました。通常このメッセージが表示されることはありません。問題が解決しない場合はページを再読み込みしてください。"
+    },
+    "survey": {
+        "text": "Craigをより良くするための簡単なアンケートにご協力ください。",
+        "cta": "アンケートに協力"
+    }
+}

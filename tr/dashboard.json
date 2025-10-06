@@ -1,1 +1,34 @@
-{}
+{
+    "name": "Türkçe",
+    "common": {
+        "close": "Kapat",
+        "cancel": "İptal et",
+        "delete": "Sil",
+        "download": "İndir",
+        "loading": "Yükleniyor…",
+        "remove": "Kaldır",
+        "avatar": "Avatar",
+        "okay": "Tamam",
+        "nevermind": "Vazgeç",
+        "language": "Dil",
+        "new": "Yeni"
+    },
+    "format_sections": {
+        "mt": "Çoklu Parça",
+        "stsm": "Tek Parça Akıllı Mix"
+    },
+    "format_buttons": {
+        "audacity": "Audacity Projesi",
+        "adobe_audition": "Adobe Audition Dosyası"
+    },
+    "footer": {
+        "tos": "Hizmet Şartları",
+        "privacy": "Güvenlik Politikası"
+    },
+    "errors": {
+        "invalid_format": "Geçersiz bir format sağlandı.",
+        "invalid_body": "Sunucuya geçersiz bir istek gönderdik, muhtemelen bunu görmemelisiniz. Bu sorun devam ederse sayfayı yeniden yükleyin.",
+        "unknown": "Bilinmeyen bir hata oluştu, daha sonra tekrar dene.",
+        "server_error": "Bir sunucu hatası oluştu, daha sonra tekrar dene."
+    }
+}
