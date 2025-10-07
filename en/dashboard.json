@@ -50,6 +50,10 @@
         "line_3": "Still didn't recieve your tier? Join the {support_server} for help.",
         "support_server": "support server"
     },
+    "disconnect_patreon": {
+        "header": "Are you sure you want to disconnect your Patreon account?",
+        "text": "Your benefits may be revoked if you disconnect your Patreon account."
+    },
     "errors": {
         "unknown": "An unknown error occurred, try again later.",
         "server_error": "A server error occurred, try again later.",
