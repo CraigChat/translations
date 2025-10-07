@@ -11,7 +11,14 @@
         "okay": "Tamam",
         "nevermind": "Vazgeç",
         "language": "Dil",
-        "new": "Yeni"
+        "new": "Yeni",
+        "dismiss": "Kapat",
+        "disconnect": "Kaldır",
+        "connect": "Bağla",
+        "profile": "Profil",
+        "save": "Kaydet",
+        "manage": "Yönet",
+        "logout": "Oturumu Kapat"
     },
     "format_sections": {
         "mt": "Çoklu Parça",
@@ -30,5 +37,13 @@
         "invalid_body": "Sunucuya geçersiz bir istek gönderdik, muhtemelen bunu görmemelisiniz. Bu sorun devam ederse sayfayı yeniden yükleyin.",
         "unknown": "Bilinmeyen bir hata oluştu, daha sonra tekrar dene.",
         "server_error": "Bir sunucu hatası oluştu, daha sonra tekrar dene."
+    },
+    "login_page": {
+        "header": "Craig paneline erişmek için Discord ile giriş yapın.",
+        "disclaimer": "Oturumunuz açık tutmak için çerez kullanıyoruz. Oturum açarak, bize çerez barındırmak ve kullanmak için yetki veriyorsunuz.",
+        "login": "Discord ile Giriş Yap"
+    },
+    "headers": {
+        "supporter_status": "Destekçi Durumu"
     }
 }
