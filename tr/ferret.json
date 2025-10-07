@@ -15,7 +15,8 @@
         "show_less": "Daha az göster",
         "language": "Dil",
         "app": "UYG",
-        "new": "Yeni"
+        "new": "Yeni",
+        "dismiss": "Kapat"
     },
     "recording": {
         "delete": "Kaydı Sil",
