@@ -44,6 +44,19 @@
         "login": "Discord ile Giriş Yap"
     },
     "headers": {
-        "supporter_status": "Destekçi Durumu"
+        "supporter_status": "Destekçi Durumu",
+        "cloud_backup": "Bulut Yedekleme"
+    },
+    "supporter_tiers": {
+        "0": "Destekçi Değil",
+        "10": "1. Kademe Destekçi",
+        "20": "2. Kademe Destekçi",
+        "30": "3. Kademe Destekçi",
+        "100": "MP3 Tanrısı"
+    },
+    "supporter_status": {
+        "dev_tier": "Bir geliştirici size bu kademeyi verdi!",
+        "manage": "Aboneliği yönet",
+        "cta": "Bir Destekçi Ol!"
     }
 }
