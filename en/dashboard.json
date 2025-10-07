@@ -96,7 +96,10 @@
         "disconnected_service": "Disconnected from {service}",
         "revoke_app_perms": "You may also revoke app permissions in your {service} settings.",
         "view_settings": "View Settings",
-        "settings_error": "Error updating settings"
+        "settings_error": "Error updating settings",
+        "upload_options": "Upload Options",
+        "exclude_bots": "Exclude Bots from Download",
+        "exclude_bots_desc": "Excludes tracks from Discord bots from being in the download. If all tracks are from bots, the upload is cancelled."
     },
     "footer": {
         "privacy": "Privacy Policy",
