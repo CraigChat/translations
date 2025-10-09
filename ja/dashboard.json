@@ -15,7 +15,14 @@
         "avatar": "アバター",
         "close": "閉じる",
         "loading": "読み込み中…",
-        "dismiss": "無視する"
+        "dismiss": "無視する",
+        "new": "新規",
+        "disconnect": "割引",
+        "connect": "接続",
+        "profile": "プロフィール",
+        "save": "保存",
+        "manage": "管理",
+        "logout": "ログアウト"
     },
     "format_sections": {
         "mt": "マルチトラック",
@@ -33,5 +40,14 @@
     "survey": {
         "text": "Craigをより良くするための簡単なアンケートにご協力ください。",
         "cta": "アンケートに協力"
+    },
+    "login_page": {
+        "header": "DiacordでログインしてCraigダッシュボードにアクセス",
+        "disclaimer": "ログイン状態の維持のためにCookieを使用します。ログインすることで利用に同意したものとします。",
+        "login": "Discordでログイン"
+    },
+    "headers": {
+        "supporter_status": "サポーターステータス",
+        "cloud_backup": "クラウドバックアップ"
     }
 }
