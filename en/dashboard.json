@@ -84,6 +84,7 @@
         "dropbox_linked": "Connected your Dropbox account.",
         "microsoft_linked": "Connected your Microsoft account.",
         "google_linked": "Connected your Google account.",
+        "account_linked": "Connected your {service} account.",
         "connect_failed": "Couldn't connect your {service} account."
     },
     "cloud_backup": {
