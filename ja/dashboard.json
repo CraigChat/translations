@@ -30,7 +30,9 @@
     },
     "format_buttons": {
         "audacity": "Audacityプロジェクト",
-        "adobe_audition": "Adobeオーディションセッション"
+        "adobe_audition": "Adobeオーディションセッション",
+        "plain_text": "そのままのテキスト",
+        "srt": ".srt(字幕ファイル)"
     },
     "errors": {
         "invalid_format": "誤った形式です。",

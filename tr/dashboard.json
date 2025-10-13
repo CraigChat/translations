@@ -26,7 +26,9 @@
     },
     "format_buttons": {
         "audacity": "Audacity Projesi",
-        "adobe_audition": "Adobe Audition Dosyası"
+        "adobe_audition": "Adobe Audition Dosyası",
+        "srt": "SubRip Metin",
+        "plain_text": "Düz Metin"
     },
     "footer": {
         "tos": "Hizmet Şartları",
