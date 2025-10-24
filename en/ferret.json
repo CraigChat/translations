@@ -228,5 +228,8 @@
     "survey": {
       "text": "Please take this quick survey and give some feedback about Craig.",
       "cta": "Take the Survey"
+    },
+    "maintenance": {
+        "status_page": "Status Page"
     }
 }
