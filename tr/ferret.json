@@ -16,7 +16,10 @@
         "language": "Dil",
         "app": "UYG",
         "new": "Yeni",
-        "dismiss": "Kapat"
+        "dismiss": "Kapat",
+        "beta": "Beta",
+        "format": "Format",
+        "processing": "İşleniyor…"
     },
     "recording": {
         "delete": "Kaydı Sil",
@@ -46,7 +49,8 @@
             "stsm": "Tek Parça Akıllı Mix",
             "local_processing": "Yerel işleme",
             "audio": "Ses",
-            "transcription": "Deşifre"
+            "transcription": "Deşifre",
+            "minizel": "Tarayıcı içinde İşleme"
         },
         "format_buttons": {
             "audacity": "Audacity Projesi",
@@ -220,5 +224,9 @@
         "invalid_delete_key": "Sağlanan silme anahtarı geçersiz.",
         "invalid_track": "Geçersiz bir parça referans alındı.",
         "no_tracks_given": "En az bir parça işlenebilmelidir."
+    },
+    "survey": {
+        "text": "Lütfen bu kısa anketi doldurun ve Craig hakkında geri bildirimde bulunun.",
+        "cta": "Anekete Katıl"
     }
 }
