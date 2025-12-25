@@ -16,7 +16,10 @@
         "language": "Language",
         "app": "App",
         "new": "New",
-        "dismiss": "Dismiss"
+        "beta": "Beta",
+        "dismiss": "Dismiss",
+        "format": "Format",
+        "processing": "Processing…"
     },
     "recording": {
         "reveal_duration": "Reveal Duration",
@@ -66,7 +69,8 @@
             "st": "Single-track",
             "stsm": "Single-track Smart Mix",
             "local_processing": "Local Processing",
-            "transcription": "Transcription"
+            "transcription": "Transcription",
+            "minizel": "In-Browser Processing"
         },
         "format_buttons": {
             "audacity": "Audacity Project",
@@ -130,6 +134,31 @@
             "count": "{count, plural,\n  one {{count, number} user excluded}\n  other {{count, number} users excluded}\n}",
             "all_excluded_warning": "At least one user should be included.",
             "all_excluded_normalization_warning": "If you want to exclude everyone from normalization, just turn normalization off!"
+        },
+        "minizel": {
+            "title": "In-Browser Processing",
+            "mix_description": "This will download and process the raw recording data in your browser, mixing all tracks into a single audio file.",
+            "multi_description": "This will download and process the raw recording data in your browser, creating a separate audio file for each user.",
+            "download_pause_warning": "The download may temporarily pause to wait for processing.",
+            "selecting": "Select where to save…",
+            "start": "Start Processing",
+            "cancel": "Cancel",
+            "elapsed": "Elapsed",
+            "downloaded": "Downloaded",
+            "buffered": "Buffered",
+            "written": "Written",
+            "track": "Track",
+            "position": "Position",
+            "progress": "Progress",
+            "writing": "Writing",
+            "write_speed": "Write Speed",
+            "processing_desc": "Encoding and writing audio files",
+            "excluded": "Excluded",
+            "complete": "Processing Complete",
+            "complete_message": "Your audio files have been saved successfully!",
+            "complete_stats": "Completed in {time}, wrote {size}",
+            "error": "Processing Error",
+            "error_message": "An error occurred while processing your recording."
         }
     },
     "notification": {
