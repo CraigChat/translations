@@ -97,6 +97,13 @@
         "upload_service": "Yükleme Servisi",
         "upload_format": "Yükleme Formatı",
         "disconnected_service": "{service} bağlantısı iptal edildi",
-        "revoke_app_perms": "Ayrıca {service} ayarlarından uygulama izinlerini iptal edebilirsiniz."
+        "revoke_app_perms": "Ayrıca {service} ayarlarından uygulama izinlerini iptal edebilirsiniz.",
+        "view_settings": "Ayarları Görüntüle",
+        "settings_error": "Ayarları güncellerken bir hata oluştu",
+        "upload_options": "Yükleme Tercihleri"
+    },
+    "survey": {
+        "text": "Lütfen bu kısa anketi doldurun ve Craig hakkında geri bildirimde bulunun.",
+        "cta": "Anekete Katıl"
     }
 }
