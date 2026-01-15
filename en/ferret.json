@@ -23,6 +23,11 @@
     },
     "recording": {
         "reveal_duration": "Reveal Duration",
+        "rec": "REC",
+        "live_warning": {
+            "title": "Recording in Progress",
+            "description": "This recording is still in progress. Processing the recording now will give you a partial export of the audio recorded so far."
+        },
         "delete": "Delete recording",
         "expires_soon": "Expires soon",
         "expires_in": "Expires {expiry}",
