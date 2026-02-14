@@ -42,6 +42,37 @@
             "description": "녹음이 진행 중입니다. 지금 처리를 진행하는 것은 지금까지 녹음된 일부만 제공합니다."
         },
         "delete": "녹음 삭제",
-        "expires_soon": "곧 만료"
+        "expires_soon": "곧 만료",
+        "rec": "녹음 중",
+        "expires_in": "{expiry} 만료",
+        "recording_id": "녹음 ID",
+        "users_recorded": "{count, plural,\n  one {{count, number}명의 사용자가 녹음됨}\n  other {{count, number}명의 사용자가 녹음됨}\n}",
+        "recording_date": "{date, date, all}에 녹음됨",
+        "by_user": "{channel}을 {user}가",
+        "via_bot": "{bot} 사용됨",
+        "delete_modal": {
+            "header": "정말 이 녹음을 삭제하시겠습니까?",
+            "subtext": "이 작업은 영구적이며 되돌릴 수 없습니다.",
+            "delete_key": "삭제 키",
+            "delete_key_invalid": "입력한 키가 잘못되었습니다.",
+            "delete_key_hint": "삭제 키는 DM을 확인하거나 {command} 명령어를 사용하면 알 수 있습니다.",
+            "confirm": "녹음 삭제하기"
+        }
+    },
+    "color_picker": {
+        "h": "색조",
+        "s": "채도",
+        "v": "밝기",
+        "r": "빨강",
+        "g": "초록",
+        "b": "파랑",
+        "a": "알파",
+        "hex": "HEX 색",
+        "without_color": "색 없이",
+        "change_to": "{mode}로 변경"
+    },
+    "download": {
+        "no_users": "녹음에 아무도 없습니다.",
+        "show_all_formats": "모든 형식 보기"
     }
 }
