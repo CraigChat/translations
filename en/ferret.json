@@ -243,6 +243,7 @@
         "no_rec": "The recording was not found, or the recording has expired.",
         "invalid_key": "The given key was invalid.",
         "rec_no_data": "This recording has no data and may have been deleted manually.",
+        "recording_deleted": "This recording was manually deleted on {deletedAt, date, all}.",
         "kitchen_down": "The processing service is unavailable or down for maintenance. Try again later.",
         "job_exists": "A processing task already exists for this recording.",
         "no_job": "This recording currently does not have a running processing task.",
