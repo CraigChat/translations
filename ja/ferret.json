@@ -23,7 +23,10 @@
         "close": "閉じる",
         "loading": "読み込み中…",
         "new": "新規",
-        "dismiss": "無視する"
+        "dismiss": "無視する",
+        "beta": "ベータ版",
+        "format": "形式",
+        "processing": "処理中…"
     },
     "recording": {
         "reveal_duration": "接続時間",
@@ -42,7 +45,11 @@
             "delete_key_hint": "DMもしくは{command}をを実行中の欄に削除キーがあります。"
         },
         "expires_soon": "もうすぐ期限切れ",
-        "users_recorded": "{count, number} 人が録音されました"
+        "users_recorded": "{count, number} 人が録音されました",
+        "rec": "録音中",
+        "live_warning": {
+            "description": "この録音はまだ継続中です。現在処理を開始すると録音された音声の一部分が出力されます。"
+        }
     },
     "color_picker": {
         "s": "彩度",
@@ -70,7 +77,8 @@
             "st": "シングルトラック",
             "stsm": "シングルトラック、スムーズ合成",
             "local_processing": "ローカル処理",
-            "transcription": "字幕"
+            "transcription": "字幕",
+            "minizel": "ブラウザ内処理"
         },
         "format_buttons": {
             "audacity": "Audacityプロジェクト",
@@ -137,7 +145,32 @@
         },
         "active_download_description": "ダウンロードは処理中です。再度ダウンロードする前には完了します。",
         "no_users": "現在録音されているユーザーはいません。",
-        "no_users_description": "現在ユーザーは録音されていません。発言をするとユーザーが追加されます。録音パネルを確認して誰か録音されているか確認しましょう。もし問題があればボイスチャンネルの地域を変更して再度録音を開始してください。"
+        "no_users_description": "現在ユーザーは録音されていません。発言をするとユーザーが追加されます。録音パネルを確認して誰か録音されているか確認しましょう。もし問題があればボイスチャンネルの地域を変更して再度録音を開始してください。",
+        "minizel": {
+            "title": "ブラウザ内処理",
+            "mix_description": "これはダウンロードと録音データの処理をブラウザ内で行います。すべての音声トラックが1つのファイルとして出力されます。",
+            "multi_description": "これはダウンロードと録音データの処理をブラウザ内で行います。ユーザーごとに別々の音声ファイルが作成されます。",
+            "download_pause_warning": "処理待ちでダウンロードが一時停止するかもしれません。",
+            "selecting": "保存場所を選択…",
+            "start": "処理を開始",
+            "cancel": "取り消し",
+            "elapsed": "予想時間",
+            "downloaded": "ダウンロード済",
+            "buffered": "準備完了",
+            "written": "保存完了",
+            "track": "トラック",
+            "position": "位置",
+            "progress": "進捗",
+            "writing": "保存中",
+            "write_speed": "書き込み速度",
+            "processing_desc": "音声ファイルを処理/保存中",
+            "excluded": "内容物",
+            "complete": "処理完了",
+            "complete_message": "音声ファイルが正常に保存されました！",
+            "complete_stats": "{time}で完了し、{size}保存されました",
+            "error": "処理エラー",
+            "error_message": "音声を処理中にエラーが発生しました。"
+        }
     },
     "notification": {
         "body": "{guild}用の録音",
@@ -196,7 +229,7 @@
         "generic": {
             "duration": "録音時間の取得中にエラーが発生しました。後で試してみてください。"
         },
-        "server_error": "サーバーエラーが発生しました。後で試してください。",
+        "server_error": "サーバーエラーが発生しました。また後でお試しください。",
         "no_key": "キーが必要です。",
         "invalid_rec": "録音IDが無効です。",
         "no_rec": "この録音は見つからないか、期限切れです。",
@@ -211,7 +244,8 @@
         "no_tracks_given": "最低でも1つは処理できるトラックが必要です。",
         "invalid_delete_key": "削除キーが無効です。",
         "unknown": "不明なエラーが発生しました。後で試してください。",
-        "invalid_body": "誤ったリクエストがサーバーに送信されました。通常このメッセージが表示されることはありません。問題が解決しない場合はページを再読み込みしてください。"
+        "invalid_body": "誤ったリクエストがサーバーに送信されました。通常このメッセージが表示されることはありません。問題が解決しない場合はページを再読み込みしてください。",
+        "recording_deleted": "この録音は{deletedAt, date, all}に手動削除されました。"
     },
     "survey": {
         "text": "Craigをより良くするための簡単なアンケートにご協力ください。",
@@ -228,5 +262,8 @@
         },
         "feature_available_in": "この機能は{tier}で利用可能です。",
         "cta": "サポーターになる"
+    },
+    "maintenance": {
+        "status_page": "システム状態"
     }
 }
