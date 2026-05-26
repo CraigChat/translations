@@ -37,7 +37,13 @@
     "errors": {
         "invalid_format": "誤った形式です。",
         "unknown": "不明なエラーが発生しました。後で試してください。",
-        "invalid_body": "誤ったリクエストがサーバーに送信されました。通常このメッセージが表示されることはありません。問題が解決しない場合はページを再読み込みしてください。"
+        "invalid_body": "誤ったリクエストがサーバーに送信されました。通常このメッセージが表示されることはありません。問題が解決しない場合はページを再読み込みしてください。",
+        "server_error": "サーバーエラーが発生しました。また後でお試しください。",
+        "login": "この操作にはログインが必要です。",
+        "unauthorized": "ログインが失効しました。ページを再読込してください。",
+        "feature_unavailable": "あなたの利用できない機能が要求されました。",
+        "not_supporter": "この操作にはサポーターティアが必要です。",
+        "need_higher_tier": "この操作にはより上位のサポーターティアが必要です。"
     },
     "survey": {
         "text": "Craigをより良くするための簡単なアンケートにご協力ください。",
@@ -68,6 +74,25 @@
     },
     "supporter_troubleshoot": {
         "header": "最近支援者になりましたか？",
-        "line_1": "Patreon自体をを通じてあなたのDiscordアカウントが紐付けられていれば、特典が自動的に適用されます。また、ここからPatreonアカウントを接続すればあなたのティアが利用できます。"
+        "line_1": "Patreon自体をを通じてあなたのDiscordアカウントが紐付けられていれば、特典が自動的に適用されます。また、ここからPatreonアカウントを接続すればあなたのティアが利用できます。",
+        "line_3": "特典が適用されていませんか？ {support_server}にお問い合わせください。",
+        "support_server": "サポート"
+    },
+    "disconnect_patreon": {
+        "header": "Patreonアカウントを連携解除してもよろしいですか？",
+        "text": "Patreonアカウントとの連携を解除すると特典は利用できなくなります。"
+    },
+    "connection_errors": {
+        "NO_ACCESS_TOKEN": "{service}からアクセス権限が取得できませんでした。また後でお試しください。",
+        "NO_USER_DATA": "{service}からユーザーデータを取得できませんでした。また後でお試しください。",
+        "INVALID_SCOPE": "Craigに必要権限の一部みが許可されています。すべての権限が確認されるまで{service}は利用できません。",
+        "USER_ID_MISMATCH": "現在ログイン中のDiscordアカウントはあなたのPatreonアカウントで紐付けされたもとと異なります。Patreonの設定でDiscordアカウントの連携を変更してから再度お試しください。"
+    },
+    "connection_responses": {
+        "account_linked": "あなたの{service}アカウントと連携しました。",
+        "connect_failed": "あなたの{service}アカウントに接続できませんでした。"
+    },
+    "cloud_backup": {
+        "enable": "クラウドバックアップを有効にする"
     }
 }
