@@ -31,7 +31,7 @@
     "format_buttons": {
         "audacity": "Audacityプロジェクト",
         "adobe_audition": "Adobeオーディションセッション",
-        "plain_text": "そのままのテキスト",
+        "plain_text": "プレーンテキスト",
         "srt": ".srt(字幕ファイル)"
     },
     "errors": {
@@ -93,6 +93,9 @@
         "connect_failed": "あなたの{service}アカウントに接続できませんでした。"
     },
     "cloud_backup": {
-        "enable": "クラウドバックアップを有効にする"
+        "enable": "クラウドバックアップを有効にする",
+        "exclude_bots": "アプリを除外",
+        "exclude_bots_desc": "ダウンロードファイルからDiscordのアプリ(ボット)の音声を取り除きます。",
+        "include_transcription": "文字起こしを含める"
     }
 }
