@@ -48,7 +48,8 @@
         "users_recorded": "{count, number} 人が録音されました",
         "rec": "録音中",
         "live_warning": {
-            "description": "この録音はまだ継続中です。現在処理を開始すると録音された音声の一部分が出力されます。"
+            "description": "この録音はまだ継続中です。現在処理を開始すると録音された音声の一部分が出力されます。",
+            "title": "録音が継続中です"
         }
     },
     "color_picker": {
