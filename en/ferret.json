@@ -28,6 +28,10 @@
             "title": "Recording in Progress",
             "description": "This recording is still in progress. Processing the recording now will give you a partial export of the audio recorded so far."
         },
+        "redacted_warning": {
+            "title": "Recording Redacted",
+            "description": "One or more users requested removal from this recording. Their identifying information was removed and their audio was replaced with silence."
+        },
         "delete": "Delete recording",
         "expires_soon": "Expires soon",
         "expires_in": "Expires {expiry}",
