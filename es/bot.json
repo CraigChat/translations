@@ -1,0 +1,14 @@
+{
+    "commands": {
+        "join": {
+            "name": "entrar",
+            "description": "Empezar a grabar en un canal de voz.",
+            "options": {
+                "channel": {
+                    "name": "canal",
+                    "description": "Canal de voz en el que se grabará."
+                }
+            }
+        }
+    }
+}

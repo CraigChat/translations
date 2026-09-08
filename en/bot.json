@@ -1,0 +1,190 @@
+{
+    "responses": {
+        "guild_only": "This command can only be used in a guild.",
+        "banned": "You are not allowed to use the bot at this time.",
+        "ratelimited": "You are running commands too often! Try again in a few seconds."
+    },
+    "common": {
+        "support_server": "Support Server",
+        "add_to_server": "Add to Server"
+    },
+    "info": {
+        "text": "**Craig** is a multi-track voice channel recorder.\nI am in **{guilds, number}** guilds and currently recording **{recordings, number}** conversations.\n-# This is from shard {shard} with {ms} milliseconds of latency."
+    },
+    "commands": {
+        "autorecord": {
+            "name": "autorecord",
+            "description": "Manage auto-record settings.",
+            "options": {
+                "view": {
+                    "name": "view",
+                    "description": "View auto-recorded channels.",
+                    "options": {
+                        "channel": {
+                            "name": "channel",
+                            "description": "The channel to view."
+                        }
+                    }
+                },
+                "on": {
+                    "name": "on",
+                    "description": "Activate auto-recording on a channel.",
+                    "options": {
+                        "channel": {
+                            "name": "channel",
+                            "description": "The channel to auto-record in."
+                        },
+                        "minimum": {
+                            "name": "minimum",
+                            "description": "The minimum amount of members to auto-record on, regardless of triggers."
+                        },
+                        "triggers": {
+                            "name": "triggers",
+                            "description": "The members or roles that trigger the auto-recording. Mention users/roles inside this option."
+                        },
+                        "post-channel": {
+                            "name": "post-channel",
+                            "description": "The channel to post recording panels to when an auto-recording starts."
+                        }
+                    }
+                },
+                "off": {
+                    "name": "off",
+                    "description": "Deactivate auto-recording on a channel.",
+                    "options": {
+                        "channel": {
+                            "name": "channel",
+                            "description": "The channel to turn off auto-recording in."
+                        }
+                    }
+                },
+                "prune": {
+                    "name": "prune",
+                    "description": "Remove auto-record rules for channels that no longer exist."
+                }
+            }
+        },
+        "bless": {
+            "name": "bless",
+            "description": "Bless this server, giving it your perks."
+        },
+        "features": {
+            "name": "features",
+            "description": "List your active perks and active server perks."
+        },
+        "info": {
+            "name": "info",
+            "description": "Get information and statistics about this bot."
+        },
+        "join": {
+            "name": "join",
+            "description": "Start recording in a voice channel.",
+            "options": {
+                "channel": {
+                    "name": "channel",
+                    "description": "The voice channel to record in."
+                }
+            }
+        },
+        "note": {
+            "name": "note",
+            "description": "Note something within the ongoing recording.",
+            "options": {
+                "message": {
+                    "name": "message",
+                    "description": "The note to create."
+                }
+            }
+        },
+        "recordings": {
+            "name": "recordings",
+            "description": "Access your previous recordings."
+        },
+        "server-settings": {
+            "name": "server-settings",
+            "description": "Manage server settings.",
+            "options": {
+                "view": {
+                    "name": "view",
+                    "description": "View server settings."
+                },
+                "access-role": {
+                    "name": "access-role",
+                    "description": "Manage access roles.",
+                    "options": {
+                        "add": {
+                            "name": "add",
+                            "description": "Add an access role.",
+                            "options": {
+                                "role": {
+                                    "name": "role",
+                                    "description": "The role to add."
+                                }
+                            }
+                        },
+                        "remove": {
+                            "name": "remove",
+                            "description": "Remove an access role.",
+                            "options": {
+                                "role": {
+                                    "name": "role",
+                                    "description": "The role to remove."
+                                }
+                            }
+                        }
+                    }
+                },
+                "bot-profile": {
+                    "name": "bot-profile",
+                    "description": "Manage the bot's server profile.",
+                    "options": {
+                        "edit": {
+                            "name": "edit",
+                            "description": "Edit the bot's server profile.",
+                            "options": {
+                                "avatar": {
+                                    "name": "avatar",
+                                    "description": "The avatar to set."
+                                },
+                                "banner": {
+                                    "name": "banner",
+                                    "description": "The banner to set."
+                                }
+                            }
+                        },
+                        "reset": {
+                            "name": "reset",
+                            "description": "Reset the bot's server profile."
+                        }
+                    }
+                }
+            }
+        },
+        "stop": {
+            "name": "stop",
+            "description": "Stop your current recording."
+        },
+        "unbless": {
+            "name": "unbless",
+            "description": "Remove your blessing from this server."
+        },
+        "voice-test": {
+            "name": "voice-test",
+            "description": "Easily test your audio quality in a voice channel."
+        },
+        "webapp": {
+            "name": "webapp",
+            "description": "Enable/disable the Craig Webapp.",
+            "options": {
+                "on": {
+                    "name": "on",
+                    "description": "Enable the Craig Webapp in future recordings."
+                },
+                "off": {
+                    "name": "off",
+                    "description": "Disable the Craig Webapp."
+                }
+            }
+        }
+    }
+}
