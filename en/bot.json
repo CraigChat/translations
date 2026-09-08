@@ -2,14 +2,99 @@
     "responses": {
         "guild_only": "This command can only be used in a guild.",
         "banned": "You are not allowed to use the bot at this time.",
-        "ratelimited": "You are running commands too often! Try again in a few seconds."
+        "ratelimited": "You are running commands too often! Try again in a few seconds.",
+        "unknown_subcommand": "Unknown sub-command.",
+        "guild_unavailable": "This server is currently unavailable to me, try re-inviting this bot. If the issue persists, join the [support server]({server_invite}).",
+        "supporter_required": "If you have recently became a supporter, login to the [dashboard]({dashboard_url}).\nYour benefits may take up to an hour to become active.",
+        "not_your_button": "Only the person who executed this command can use this button.",
+        "interaction_error": "An error occurred while using this interaction.",
+        "recording_in_progress": "A recording or voice test is already in progress in this server.",
+        "could_not_message": "I couldn't create a message in this channel."
     },
     "common": {
         "support_server": "Support Server",
-        "add_to_server": "Add to Server"
+        "add_to_server": "Add to Server",
+        "support_craig": "Support Craig",
+        "how_fix": "How do I fix this?",
+        "cancel": "Cancel",
+        "note": "Note"
     },
     "info": {
         "text": "**Craig** is a multi-track voice channel recorder.\nI am in **{guilds, number}** guilds and currently recording **{recordings, number}** conversations.\n-# This is from shard {shard} with {ms} milliseconds of latency."
+    },
+    "blessing": {
+        "already_blessed": "You already blessed this server.",
+        "remove": "Remove blessing",
+        "no_perks": "You don't have any perks to bless this server with.",
+        "server_already_blessed": "This server has already been blessed by a similar or greater tier.",
+        "blessed": "You have blessed this server and gave it your perks. All future recordings will have your benefits.",
+        "not_blessed": "You have not blessed this server.",
+        "removed": "Removed your blessing from this server.",
+        "bless_error": "An error occurred while blessing the server.",
+        "unbless_error": "An error occurred while removing the blessing from the server."
+    },
+    "recording": {
+        "not_found": "That recording was not found or may have already ended.",
+        "need_perms": "You need the \"Manage Server\" permission or have an access role to manage or start recordings.",
+        "cant_connect": "I do not have permission to connect to {channel}.",
+        "channel_full": "{channel} is full, and I do not have the \"Move Members\" permission needed to join it.",
+        "need_embed": "I need the \"Embed Links\" permission in {channel} to be able to display information.",
+        "need_view_channel": "I need the \"View Channel\" permission in {channel} to be able to display information.",
+        "connect_fail": "Failed to connect to your channel, try again later.",
+        "panel": {
+            "connecting": "Connecting…",
+            "added_note": "{user} added a note."
+        },
+        "added_note": "Added the note to the recording!",
+        "note_error": "An error occurred while adding the note.",
+        "note_modal": {
+            "title": "Add a note to this recording",
+            "placeholder": "Chapter 1, Part 1, etc."
+        }
+    },
+    "e2ee": {
+        "not_in_channel": "You aren't in this channel.",
+        "cant_view_code": "You aren't in this voice channel right now to be able to view the privacy code.",
+        "verification_code": "Verification Code",
+        "code_since_time": "Since {time}",
+        "verification_code_error": "An error occurred when trying to get the verification code, try again later.",
+        "privacy_code": "Voice Privacy Code",
+        "header": "This voice call is {emoji} **end-to-end encrypted**, [Learn more here](https://support.discord.com/hc/en-us/articles/25968222946071-End-to-End-Encryption-for-Audio-and-Video).",
+        "unknown_code": "Unknown (might be transitioning the call, try again later)",
+        "footer": "A new code is generated when people join or leave this call.",
+        "view_verification_code": "View Verification Code"
+    },
+    "voicetest": {
+        "not_found": "That voice test was not found or may have already ended.",
+        "need_perms": "You need the \"Manage Server\" permission or have an access role to make or manage voice tests.",
+        "no_audio": "No audio was detected during the test. Please check your microphone and try again.",
+        "disconnected": "I was disconnected from the voice channel.",
+        "ratelimited": "You are doing voice tests too often! Try again in a few seconds.",
+        "not_in_channel": "You need to be in a voice channel to do a voice test.",
+        "error": "An error occurred while starting the voice test, try again later.",
+        "panel": {
+            "recording": "Recording voice test…",
+            "playing": "Playing back audio…",
+            "finished": "Voice test finished.",
+            "cancelled": "Voice test cancelled.",
+            "failed": "Voice test failed!",
+            "will_end_in": "Recording will end {in_time}",
+            "stop": "Stop & Listen"
+        }
+    },
+    "botprofile": {
+        "need_perms": "You need the \"Manage Server\" permission to change the bot profile.",
+        "reset": "Reset my server profile.",
+        "reset_fail": "Could not reset my server profile. You may have updated it too frequently.",
+        "no_edit": "You didn't edit anything.",
+        "invalid_content_type": "The {item} trying to be set has an invalid content type.",
+        "supporter_required": "Sorry, but this feature is only for Tier 1 supporters ($1 patrons).",
+        "updated": "Updated my server profile.",
+        "update_fail": "Could not update my server profile; you may have updated it too frequently.",
+        "item": {
+            "avatar": "avatar",
+            "banner": "banner"
+        }
     },
     "commands": {
         "autorecord": {

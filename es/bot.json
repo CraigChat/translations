@@ -1,4 +1,16 @@
 {
+    "common": {
+        "cancel": "Cancelar"
+    },
+    "e2ee": {
+        "verification_code": "Código de verificación"
+    },
+    "voicetest": {
+        "panel": {
+            "will_end_in": "La grabación finalizará {in_time}",
+            "stop": "Para y escucha"
+        }
+    },
     "commands": {
         "join": {
             "name": "entrar",
