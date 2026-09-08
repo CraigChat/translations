@@ -133,30 +133,30 @@
                             }
                         }
                     }
-                },
-                "bot-profile": {
-                    "name": "bot-profile",
-                    "description": "Manage the bot's server profile.",
+                }
+            }
+        },
+        "bot-profile": {
+            "name": "bot-profile",
+            "description": "Update the bot's server profile.",
+            "options": {
+                "edit": {
+                    "name": "edit",
+                    "description": "Edit the bot's server profile.",
                     "options": {
-                        "edit": {
-                            "name": "edit",
-                            "description": "Edit the bot's server profile.",
-                            "options": {
-                                "avatar": {
-                                    "name": "avatar",
-                                    "description": "The avatar to set."
-                                },
-                                "banner": {
-                                    "name": "banner",
-                                    "description": "The banner to set."
-                                }
-                            }
+                        "avatar": {
+                            "name": "avatar",
+                            "description": "The avatar to set."
                         },
-                        "reset": {
-                            "name": "reset",
-                            "description": "Reset the bot's server profile."
+                        "banner": {
+                            "name": "banner",
+                            "description": "The banner to set."
                         }
                     }
+                },
+                "reset": {
+                    "name": "reset",
+                    "description": "Reset the bot's server profile."
                 }
             }
         },
