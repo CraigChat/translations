@@ -21,6 +21,7 @@
         "note": "Note",
         "dashboard": "Dashboard",
         "download": "Download",
+        "recordings": "Recordings",
         "rec_id": "Recording ID",
         "channel": "Channel",
         "guild": "Guild",
@@ -75,6 +76,72 @@
     "stop_command": {
         "no_recording": "There is no recording to stop.",
         "stopped": "Stopped recording."
+    },
+    "autorecord": {
+        "stopped_from_no_users": "Autorecord stopped due to lack of users.",
+        "need_perms": "You need the \"Manage Server\" permission or have an access role to manage auto-recordings.",
+        "not_recorded": "The channel {channel} is not auto-recorded.",
+        "unknown_channel": "Unknown channel",
+        "none": "*None*",
+        "view_channel": "**Channel:** {channel}\n**Created by:** {user}\n**Minimum members:** {minimum}\n**Trigger roles:** {roles}\n**Trigger users:** {users}\n**Updated at:** {updated_at}",
+        "no_channels": "There are no auto-recorded channels.",
+        "channels_title": "Auto-recorded Channels",
+        "minimum": "{count} minimum",
+        "roles": "{count} role(s)",
+        "users": "{count} user(s)",
+        "posting_to": "posting to {channel}",
+        "supporter_required": "Sorry, but this feature is only for Tier 2 supporters ($4 patrons).\n\n> **Note:** You can still record regularly with the `/join` command.",
+        "need_trigger": "You need to at least set a minimum user amount or add a user/role trigger.",
+        "everyone_trigger": "The `@everyone` role cannot be used as a trigger role.",
+        "limit_reached": "You can only have {limit} auto-recordings at a time.",
+        "activated": "Auto-recording on {channel} has been activated. Please make sure you can receive DMs from me.",
+        "not_found": "No auto-recording found on {channel}.",
+        "deactivated": "Auto-recording on {channel} has been deactivated.",
+        "pruned": "Pruned {count} auto-record rules for non-existent channels."
+    },
+    "server_settings": {
+        "need_perms": "You need the \"Manage Server\" permission to change server settings.",
+        "title": "Server Settings",
+        "none": "*None*",
+        "view": "**Access Roles:** {roles}",
+        "already_access_role": "This role is already an access role.",
+        "added_access_role": "Added role {role} to access roles.",
+        "not_access_role": "This role is not an access role.",
+        "removed_access_role": "Removed {role} from access roles."
+    },
+    "recordings": {
+        "none": "You haven't done any recordings recently on {bot}.",
+        "list_header": "## Previous recordings on {bot}\n-# {count} recording(s), Page {page}/{pages}",
+        "expires": "Expires {in_time}",
+        "autorecorded": "*`Autorecorded`*"
+    },
+    "features": {
+        "title": "Features",
+        "your_perks": "Your Perks",
+        "server_perks": "Server Perks",
+        "no_server_perks": "This server has no perks; you can bless this server.",
+        "bless_server": "Bless server",
+        "blessed_by": "(Blessed by {user})",
+        "unknown_tier": "Tier {tier}",
+        "reward_details": "__**{tier}**__ {blessed_by}\nRecord Duration Limit: {record_hours} hours\nDownload Expiration: {expiry_days} days\n\n{features}",
+        "tiers": {
+            "-1": "Greater Weasel",
+            "0": "Default",
+            "10": "Tier 1",
+            "20": "Tier 2",
+            "30": "Tier 3",
+            "100": "MP3 God"
+        },
+        "feature": {
+            "mix": "Smart Mix",
+            "auto": "Auto-recording",
+            "drive": "Cloud Backup",
+            "glowers": "Avatar Overlays",
+            "eccontinuous": "Continuous Mode via Webapp",
+            "ecflac": "FLAC via Webapp",
+            "mp3": "Exporting to MP3",
+            "transcription": "Transcription"
+        }
     },
     "recording": {
         "start_error": "An error occurred while trying to start the recording. Try again in a few minutes.\nIf this problem persists, please join the support server with the button below.",
