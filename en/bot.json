@@ -86,6 +86,7 @@
         "need_embed": "I need the \"Embed Links\" permission in {channel} to be able to display information.",
         "need_view_channel": "I need the \"View Channel\" permission in {channel} to be able to display information.",
         "connect_fail": "Failed to connect to your channel, try again later.",
+        "went_unavailable": "This guild went unavailable during recording! To prevent further errors, this recording has ended.",
         "actions": {
             "stop": "Stop recording",
             "note": "Add a note"
@@ -169,6 +170,7 @@
         "ratelimited": "You are doing voice tests too often! Try again in a few seconds.",
         "not_in_channel": "You need to be in a voice channel to do a voice test.",
         "error": "An error occurred while starting the voice test, try again later.",
+        "went_unavailable": "This guild went unavailable during a voice test! To prevent further errors, this voice test has ended.",
         "panel": {
             "recording": "Recording voice test…",
             "playing": "Playing back audio…",
