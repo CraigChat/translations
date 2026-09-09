@@ -14,10 +14,25 @@
     "common": {
         "support_server": "Support Server",
         "add_to_server": "Add to Server",
+        "supporter_cta": "Become a Supporter",
         "support_craig": "Support Craig",
         "how_fix": "How do I fix this?",
         "cancel": "Cancel",
-        "note": "Note"
+        "note": "Note",
+        "dashboard": "Dashboard",
+        "download": "Download",
+        "rec_id": "Recording ID",
+        "channel": "Channel",
+        "guild": "Guild",
+        "started": "Started",
+        "voice_region": "Voice Region",
+        "voice_latency": "Voice Server Latency",
+        "activity": "Activity",
+        "delete_key": "Delete key",
+        "webapp_url": "Webapp URL",
+        "click_to_show": "(click to show)",
+        "try_again_later": "Please try again later.",
+        "loading": "Loading…"
     },
     "info": {
         "text": "**Craig** is a multi-track voice channel recorder.\nI am in **{guilds, number}** guilds and currently recording **{recordings, number}** conversations.\n-# This is from shard {shard} with {ms} milliseconds of latency."
@@ -33,7 +48,37 @@
         "bless_error": "An error occurred while blessing the server.",
         "unbless_error": "An error occurred while removing the blessing from the server."
     },
+    "join_command": {
+        "specify_channel": "Please specify a channel to record in, or join a channel.",
+        "not_voice_channel": "That channel is not a voice channel.",
+        "supporter_only": "Sorry, but this bot is only for supporters. Please use Craig.",
+        "cant_dm": "I can't DM you, so I can't record. I need to be able to DM you to send you the download link.",
+        "cant_dm_footer": "To bring up the recording link again, use the `/recordings` command.",
+        "dm_unavailable": "I was unable to send you a DM with the download link. I need to be able to DM you to send you the download link in the future.",
+        "nick_changing": "It's taking a while for me to change my nickname to indicate that I'm recording.\nI cannot start recording until I've changed my nickname. Please be patient.",
+        "nick_error": "An error occurred while changing my nickname",
+        "need_nick_perms": "I do not have permission to change my nickname. I will not record without this permission.",
+        "voice_test_ongoing": "You must finish the voice test before starting a recording.",
+        "exists": "Already recording in this server.",
+        "started": "Started recording in {channel}.",
+        "maintenance": "The bot is currently undergoing maintenance.",
+        "delete_recording": "Delete recording",
+        "info_header": "Started recording in {channel} at {time}.",
+        "info_header_auto": "Started auto-recording in {channel} at {time}.",
+        "info_panel_reminder": "-# You can bring up the recording panel with `/join`.",
+        "info_footer": "I will record up to {record_hours} hours, I'll stop recording {record_time} from now.\nThis recording will expire {expire_time}. ({expiry_days} days from now)\n-# The audio can be downloaded even while I'm still recording.",
+        "actions": {
+            "jump_to_panel": "Jump to recording panel",
+            "jump_to_dm": "Jump to DM"
+        }
+    },
+    "stop_command": {
+        "no_recording": "There is no recording to stop.",
+        "stopped": "Stopped recording."
+    },
     "recording": {
+        "start_error": "An error occurred while trying to start the recording. Try again in a few minutes.\nIf this problem persists, please join the support server with the button below.",
+        "not_recording": "You aren't recording in this server.",
         "not_found": "That recording was not found or may have already ended.",
         "need_perms": "You need the \"Manage Server\" permission or have an access role to manage or start recordings.",
         "cant_connect": "I do not have permission to connect to {channel}.",
@@ -41,15 +86,67 @@
         "need_embed": "I need the \"Embed Links\" permission in {channel} to be able to display information.",
         "need_view_channel": "I need the \"View Channel\" permission in {channel} to be able to display information.",
         "connect_fail": "Failed to connect to your channel, try again later.",
-        "panel": {
-            "connecting": "Connecting…",
-            "added_note": "{user} added a note."
+        "actions": {
+            "stop": "Stop recording",
+            "note": "Add a note"
         },
+        "panel": {
+            "info": {
+                "owner": "{user}'s recording"
+            },
+            "maintenance": "The bot is undergoing maintenance, recording will be stopped.",
+            "recording": "Recording…",
+            "connecting": "Connecting…",
+            "reconnecting": "Reconnecting…",
+            "error": "An error occurred.",
+            "ended": "Recording ended.",
+            "added_note": "{user} added a note.",
+            "webapp_fail": "Failed to connect to the webapp!",
+            "joined": "{user} joined the recording.",
+            "webapp_connected": "{name} has connected from the webapp.",
+            "stopped": "Recording stopped by {user}.",
+            "no_audio": "I haven't received any audio from anyone!",
+            "connect_fail": "Failed to connect!",
+            "reconnect_fail": "Failed to reconnect after 3 tries.",
+            "deafened": "I was deafened!",
+            "undeafened": "I was undeafened.",
+            "reconnected": "Reconnected.",
+            "auto_reconnected": "Automatically reconnected.",
+            "high_latency": "High voice server latency: {latency}ms, this may cause issues with the recording.",
+            "discord_requested_reconnect": "Discord requested us to reconnect, reconnecting…",
+            "disconnected_from_error": "An error has disconnected me, reconnecting…",
+            "vc_closed": "The voice connection was closed, disconnecting… ([why?](https://link.snaz.in/craigstopped))",
+            "corrupt_data": "{user} has corrupt data! I will not be able to correctly process their audio!",
+            "footer": "Is this panel stuck? Try running `/join` again for a new recording panel."
+        },
+        "e2ee_error": "Due to voice encryption issues, I could not properly hear anyone. Please switch this channel's voice region and restart the recording.",
+        "moved": "I was moved to another channel! If you want me to leave, please press the stop button.",
+        "deafened": "The bot has been deafened! Please undeafen me to continue recording.",
+        "failed_to_reconnect": "I could not reconnect properly to the voice channel after 3 tries. Please restart the recording, and if this problem persists, please join the [support server](<https://discord.gg/craig>).",
+        "failed_to_connect": "Failed to connect to your channel, try again later. If the issue persists, report it in the [support server](<https://discord.gg/craig>).",
+        "time_limit_reached": "You've reached the maximum time limit of {hours} hours for this recording.",
+        "size_limit_reached": "The recording has reached the size limit and has been automatically stopped.",
+        "no_audio_stop": "I haven't received any audio from anyone in this recording, try switching to a different voice region if this problem persists.",
+        "no_audio_warn": "Hello? I haven't heard anything for five minutes. Make sure to stop the recording if you are done! If you are taking a break, disregard this message.",
         "added_note": "Added the note to the recording!",
         "note_error": "An error occurred while adding the note.",
         "note_modal": {
             "title": "Add a note to this recording",
             "placeholder": "Chapter 1, Part 1, etc."
+        }
+    },
+    "upload": {
+        "failed_title": "Failed to upload to {service}",
+        "uploaded": "Recording `{recording_id}` was uploaded to {service}.",
+        "open": "Open in {service}",
+        "cancelled": "The download was cancelled, possibly due to server maintenance.",
+        "process_error": "An error occurred while creating the download.",
+        "error": "An error occurred while uploading.",
+        "microservice_error": "Unable to connect to the Cloud Backup microservice.",
+        "fail_message_end": "You will need to manually upload your recording (`{recording_id}`) to {service}.",
+        "errors": {
+            "auth_invalidated": "The authentication for this service was invalidated, you may need to re-authenticate.",
+            "server_error": "An unknown server error occurred."
         }
     },
     "e2ee": {
@@ -79,8 +176,14 @@
             "cancelled": "Voice test cancelled.",
             "failed": "Voice test failed!",
             "will_end_in": "Recording will end {in_time}",
-            "stop": "Stop & Listen"
+            "stop": "Stop & Listen",
+            "no_audio": "No audio recorded!"
         }
+    },
+    "webapp": {
+        "not_enabled": "This instance of Craig does not have a webapp.",
+        "on": "Enabled the Craig Webapp in future recordings. You should get a Webapp link in your recording DM.",
+        "off": "Disabled the Craig Webapp."
     },
     "botprofile": {
         "need_perms": "You need the \"Manage Server\" permission to change the bot profile.",

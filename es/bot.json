@@ -1,9 +1,19 @@
 {
     "common": {
-        "cancel": "Cancelar"
+        "cancel": "Cancelar",
+        "channel": "Canal",
+        "download": "Descargar"
     },
     "e2ee": {
         "verification_code": "Código de verificación"
+    },
+    "recording": {
+        "panel": {
+            "recording": "Grabando…",
+            "connecting": "Conectando…",
+            "reconnecting": "Reconectando…",
+            "ended": "Grabación finalizada."
+        }
     },
     "voicetest": {
         "panel": {
