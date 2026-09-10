@@ -76,7 +76,8 @@
         "header": "最近支援者になりましたか？",
         "line_1": "Patreon自体をを通じてあなたのDiscordアカウントが紐付けられていれば、特典が自動的に適用されます。また、ここからPatreonアカウントを接続すればあなたのティアが利用できます。",
         "line_3": "特典が適用されていませんか？ {support_server}にお問い合わせください。",
-        "support_server": "サポート"
+        "support_server": "サポート",
+        "line_2": "録音に使用しているDiscordアカウントと、支援を行っているPatreonアカウントが正しく連携されていることをご確認ください。"
     },
     "disconnect_patreon": {
         "header": "Patreonアカウントを連携解除してもよろしいですか？",
@@ -94,8 +95,18 @@
     },
     "cloud_backup": {
         "enable": "クラウドバックアップを有効にする",
-        "exclude_bots": "アプリを除外",
+        "exclude_bots": "アプリ(ボット)を除外",
         "exclude_bots_desc": "ダウンロードファイルからDiscordのアプリ(ボット)の音声を取り除きます。",
-        "include_transcription": "文字起こしを含める"
+        "include_transcription": "文字起こしを含める",
+        "enable_desc": "Craigが録音を連携先のクラウドストレージに自動でバックアップすることを許可します。この設定は、あなたが開始した録音に限り有効です。",
+        "select_service": "バックアップ先のクラウドストレージを選択",
+        "select_format": "バックアップ形式を選択",
+        "upload_service": "バックアップ先サービス",
+        "upload_format": "バックアップ形式",
+        "disconnected_service": "{service} から連携解除しました",
+        "revoke_app_perms": "{service} の設定から権限を取り消す必要があるかもしれません。",
+        "view_settings": "設定を見る",
+        "settings_error": "設定の更新に失敗しました",
+        "upload_options": "バックアップオプション"
     }
 }
