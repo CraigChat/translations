@@ -49,6 +49,37 @@
                     "description": "Canal de voz en el que se grabará."
                 }
             }
+        },
+        "note": {
+            "name": "nota"
+        },
+        "autorecord": {
+            "options": {
+                "off": {
+                    "options": {
+                        "channel": {
+                            "name": "canal"
+                        }
+                    }
+                }
+            }
+        },
+        "info": {
+            "name": "info"
+        },
+        "server-settings": {
+            "options": {
+                "view": {
+                    "description": "Ver configuración del servidor."
+                },
+                "access-role": {
+                    "options": {
+                        "add": {
+                            "name": "agregar"
+                        }
+                    }
+                }
+            }
         }
     }
 }
