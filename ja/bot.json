@@ -1,1 +1,57 @@
-{}
+{
+    "responses": {
+        "guild_only": "このコマンドはサーバーでのみ使用可能です。",
+        "banned": "このアプリの使用は現在制限されています。",
+        "ratelimited": "コマンド操作が多すぎます！数秒後にもう一度お試しください。",
+        "unknown_subcommand": "不明なサブコマンドです。",
+        "guild_unavailable": "このサーバーは現在利用できません。このアプリを入れ直してみてください。問題が解決しない場合は[サポートサーバー]({server_invite})までお問い合わせください。",
+        "supporter_required": "最近サポーターにななられた場合、[ダッシュボード]({dashboard_url})にログインしてください。\n特典が利用できるまで最大1時間かかります。",
+        "not_your_button": "コマンドを実行したユーザーだけがこのボタンを操作できます。",
+        "interaction_error": "この操作の途中でエラーが発生しました。",
+        "recording_in_progress": "録音またはボイステストはすでにこのサーバーで処理中です。",
+        "could_not_message": "このチャンネルでメッセージが送信できませんでした。"
+    },
+    "common": {
+        "support_server": "サポートサーバー",
+        "add_to_server": "サーバーに追加",
+        "supporter_cta": "サポーターになる",
+        "how_fix": "直し方",
+        "cancel": "キャンセル",
+        "note": "メモ",
+        "dashboard": "ダッシュボード",
+        "download": "ダウンロード",
+        "recordings": "録音一覧",
+        "rec_id": "録音ID",
+        "channel": "チャンネル",
+        "guild": "サーバー",
+        "started": "開始済み",
+        "voice_region": "音声の地域",
+        "voice_latency": "音声サーバーのレイテンシ",
+        "activity": "アクティビティ",
+        "delete_key": "キーを削除",
+        "webapp_url": "WebアプリのURL",
+        "click_to_show": "(クリックして表示)",
+        "try_again_later": "また後でお試しください。",
+        "loading": "読み込み中…"
+    },
+    "info": {
+        "text": "**Craig**はマルチトラック対応のボイスチャンネルレコーダーです。\n現在**{guilds, number}**サーバーで **{recordings, number}**件の会話を録音しています。\n-# これはシャード{shard}から{ms}ミリ秒遅延して表示されています。"
+    },
+    "blessing": {
+        "already_blessed": "すでにこのサーバーに特典を付与しています。",
+        "remove": "特典の適用をやめる",
+        "no_perks": "このサーバーに適用できる特典がありません。",
+        "server_already_blessed": "このサーバーはすでに同等以上の特典が適用されています。",
+        "blessed": "このサーバーに特典が適用されました。今後全ての録音で特典が利用できます。",
+        "not_blessed": "あなたはこのサーバーに特典を付与していません。",
+        "removed": "このサーバーから得点を取り除きました。",
+        "bless_error": "このサーバーに特典を適用する際にエラーが発生しました。",
+        "unbless_error": "このサーバーから特典を取り除く際にエラーが発生しました。"
+    },
+    "join_command": {
+        "specify_channel": "録音したいチャンネルに参加するか、指定をしてください。",
+        "not_voice_channel": "このチャンネルはボイスチャンネルではありません。",
+        "supporter_only": "すみません。このサーバーはサポーター専用です。Craigを使用してください。",
+        "cant_dm": "DMを送信できませんでした。ダウンロードリンクの送信にDMが必要です。"
+    }
+}
