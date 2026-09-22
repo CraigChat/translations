@@ -162,6 +162,9 @@
                 "owner": "{user}'s recording"
             },
             "maintenance": "The bot is undergoing maintenance, recording will be stopped.",
+            "ongoing_incident": "Ongoing Incident",
+            "ongoing_maintenance": "Ongoing Maintenance",
+            "upcoming_maintenance": "Upcoming Maintenance",
             "recording": "Recording…",
             "connecting": "Connecting…",
             "reconnecting": "Reconnecting…",
