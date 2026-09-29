@@ -25,7 +25,7 @@
         "channel": "チャンネル",
         "guild": "サーバー",
         "started": "開始済み",
-        "voice_region": "音声の地域",
+        "voice_region": "音声サーバーの地域",
         "voice_latency": "音声サーバーのレイテンシ",
         "activity": "アクティビティ",
         "delete_key": "キーを削除",
@@ -35,7 +35,7 @@
         "loading": "読み込み中…"
     },
     "info": {
-        "text": "**Craig**はマルチトラック対応のボイスチャンネルレコーダーです。\n現在**{guilds, number}**サーバーで **{recordings, number}**件の会話を録音しています。\n-# これはシャード{shard}から{ms}ミリ秒遅延して表示されています。"
+        "text": "**Craig**は複数トラック対応のボイスチャンネルレコーダーです。\n現在**{guilds, number}**サーバーで **{recordings, number}**件の会話を録音しています。\n-# このメッセージはシャード{shard}から{ms}ミリ秒の遅延で送信されています。"
     },
     "blessing": {
         "already_blessed": "すでにこのサーバーに特典を付与しています。",
@@ -55,6 +55,51 @@
         "cant_dm": "DMを送信できませんでした。ダウンロードリンクの送信にDMが必要です。",
         "cant_dm_footer": "録音リンクを再度表示するには、`/recordings`コマンドを使用してください。",
         "dm_unavailable": "ダウンロードリンクをDMに送信できませんでした。今後ダウンロードリンクを受け取るために、DMを許可してください。",
-        "nick_error": "ニックネーム変更中にエラーが発生しました"
+        "nick_error": "ニックネーム変更中にエラーが発生しました",
+        "need_nick_perms": "自分のニックネームを変更する権限がありません。この権限がない場合、録音は行いません。",
+        "voice_test_ongoing": "録音開始前にボイステストを完了する必要があります。",
+        "exists": "すでにこのサーバーで録音中です。",
+        "started": "{channel}で録音が開始されました。",
+        "maintenance": "このBotは現在メンテナンス中です。",
+        "delete_recording": "録音を削除",
+        "info_header": "{time}に{channel}で録音が開始されました。",
+        "info_header_auto": "{time}に{channel}の自動録音が開始されました。",
+        "info_panel_reminder": "-# 録音パネルを`/join`で呼び出せます。",
+        "info_footer": "最大{record_hours}時間まで録音できます。今から{record_time}後にこの録音は停止されます。\nまたこの録音は{expire_time}(今から{expiry_days}日後)に削除されます。\n-# 録音中でも音声をダウンロードできます。",
+        "actions": {
+            "jump_to_panel": "録音パネルにジャンプ",
+            "jump_to_dm": "DMにジャンプ"
+        }
+    },
+    "stop_command": {
+        "no_recording": "現在進行中の録音はありません。",
+        "stopped": "録音を停止しました。"
+    },
+    "autorecord": {
+        "stopped_from_no_users": "ユーザー数が十分でなかったため自動録音は停止されました。",
+        "need_perms": "自動録音を管理するには「サーバーを管理」の権限、またはアクセス権限のあるロールが必要です。",
+        "not_recorded": "{channel}チャンネルは自動で録音されません。",
+        "unknown_channel": "不明なチャンネル",
+        "none": "*なし*",
+        "no_channels": "これらは自動録音が無効のチャンネルです。",
+        "channels_title": "自動録音されたチャンネル",
+        "minimum": "最小{count}",
+        "roles": "{count}個のロール",
+        "users": "{count}人のユーザー",
+        "supporter_required": "申し訳ありません。これはティア2（$4）以上のサポーター限定の機能です。\n\n> **補足:** `/join`コマンドを利用した通常の録音は可能です。",
+        "need_trigger": "録音開始に必要な最低人数、または特定のユーザー/ロールを設定してください。",
+        "everyone_trigger": "`@everyone`ロールを条件にすることはできません。",
+        "limit_reached": "自動録音は一度に{limit}件までしかできません。",
+        "activated": "{channel}の自動録音が有効化されました。このbotからのDMが受け取れることを確認してください。",
+        "not_found": "{channel}の自動録音は見つかりません。",
+        "deactivated": "{channel}の自動録音は無効化されました。"
+    },
+    "server_settings": {
+        "need_perms": "サーバー設定を変更するためには「サーバーを管理」の権限が必要です。",
+        "title": "サーバー設定",
+        "none": "*なし*",
+        "view": "**アクセス可能なロール:** {roles}",
+        "already_access_role": "このロールはすでにアクセス可能なロールとして設定されています。",
+        "added_access_role": "{role}をアクセス可能なロールに追加しました。"
     }
 }
