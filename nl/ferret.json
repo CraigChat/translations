@@ -45,7 +45,7 @@
             "audio": "Geluid"
         },
         "format_buttons": {
-            "audacity": "Audacity Project",
+            "audacity": "Audacity 3 Project",
             "win_executable": "Windows Applicatie",
             "unix_script": "Unix Script",
             "other": "Andere",

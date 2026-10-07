@@ -82,7 +82,7 @@
             "minizel": "In-Browser Processing"
         },
         "format_buttons": {
-            "audacity": "Audacity Project",
+            "audacity": "Audacity 3 Project",
             "adobe_audition": "Adobe Audition Session",
             "win_executable": "Windows Executable",
             "mac_script": "Mac Script",

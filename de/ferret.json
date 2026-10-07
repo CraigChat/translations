@@ -26,7 +26,7 @@
       "local_processing": "Lokales verarbeiten"
     },
     "format_buttons": {
-      "audacity": "Audacity Projekt",
+      "audacity": "Audacity 3 Projekt",
       "win_executable": "Windows Applikation",
       "unix_script": "Unix Script",
       "other": "Andere"

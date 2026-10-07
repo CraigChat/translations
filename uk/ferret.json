@@ -26,7 +26,7 @@
       "local_processing": "Локальна обробка"
     },
     "format_buttons": {
-      "audacity": "Проект Audacity",
+      "audacity": "ПроектAudacity 3",
       "win_executable": "Додаток Windows",
       "unix_script": "Скрипт Unix",
       "other": "Інше"
