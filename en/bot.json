@@ -251,6 +251,15 @@
             "no_audio": "No audio recorded!"
         }
     },
+    "usersettings": {
+        "webapp": {
+            "title": "Webapp",
+            "description": "Enable the [webapp](https://docs.craig.chat/features/webapp/) so that people outside of Discord can be in the recording. Enabling this includes a webapp URL inside your recording DM to send to other people."
+        },
+        "enable": "Enable",
+        "disable": "Disable",
+        "cloud_backup": "Manage Cloud Backup"
+    },
     "webapp": {
         "not_enabled": "This instance of Craig does not have a webapp.",
         "on": "Enabled the Craig Webapp in future recordings. You should get a Webapp link in your recording DM.",
