@@ -89,7 +89,8 @@
             "unix_script": "Unix Script",
             "other": "Other",
             "plain_text": "Plain Text",
-            "srt": "SubRip Text"
+            "srt": "SubRip Text",
+            "mixed": "(Mixed)"
         },
         "modal": {
             "header": "Ready to download?",
