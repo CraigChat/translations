@@ -256,6 +256,13 @@
             "title": "Webapp",
             "description": "Enable the [webapp](https://docs.craig.chat/features/webapp/) so that people outside of Discord can be in the recording. Enabling this includes a webapp URL inside your recording DM to send to other people."
         },
+        "include_bots": {
+            "title": "Include Bots in Recordings?",
+            "on_desc": "Other Discord bots will be included in your recordings.",
+            "off_desc": "Other Discord bots will be excluded from your recordings.",
+            "on": "Other Discord bots will now be recorded in your future recordings.",
+            "off": "Other Discord bots will now be left out from your future recordings."
+        },
         "enable": "Enable",
         "disable": "Disable",
         "cloud_backup": "Manage Cloud Backup"
