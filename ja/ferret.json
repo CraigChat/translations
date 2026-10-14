@@ -262,7 +262,7 @@
             "-1": "グレーターウィーゼル"
         },
         "feature_available_in": "この機能は{tier}で利用可能です。",
-        "cta": "サポーターになる"
+        "cta": "サポーターになる!"
     },
     "maintenance": {
         "status_page": "システム状態"
