@@ -278,6 +278,7 @@
         "reset_fail": "Could not reset my server profile. You may have updated it too frequently.",
         "no_edit": "You didn't edit anything.",
         "invalid_content_type": "The {item} trying to be set has an invalid content type.",
+        "too_large": "The {item} trying to be set is too large! It must be {max} MB or smaller.",
         "supporter_required": "Sorry, but this feature is only for Tier 1 supporters ($1 patrons).",
         "updated": "Updated my server profile.",
         "update_fail": "Could not update my server profile; you may have updated it too frequently.",
