@@ -256,7 +256,8 @@
         "feature_unavailable": "You requested to use a feature that can't be used on this recording.",
         "invalid_track": "An invalid track was referenced.",
         "no_tracks_given": "At least one track should be able to be processed.",
-        "invalid_delete_key": "The given delete key was invalid."
+        "invalid_delete_key": "The given delete key was invalid.",
+        "rate_limited": "Too many requests, try again in a few minutes."
     },
     "footer": {
         "build": "Build",
