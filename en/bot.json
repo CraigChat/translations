@@ -193,6 +193,7 @@
         "moved": "I was moved to another channel! If you want me to leave, please press the stop button.",
         "deafened": "The bot has been deafened! Please undeafen me to continue recording.",
         "failed_to_reconnect": "I could not reconnect properly to the voice channel after 3 tries. Please restart the recording, and if this problem persists, please join the [support server](<https://discord.gg/craig>).",
+        "connection_error": "The voice connection encountered an error and the recording has been stopped. Try again later, and if the issue persists, report it in the [support server](<https://discord.gg/craig>).",
         "failed_to_connect": "Failed to connect to your channel, try again later. If the issue persists, report it in the [support server](<https://discord.gg/craig>).",
         "time_limit_reached": "You've reached the maximum time limit of {hours} hours for this recording.",
         "size_limit_reached": "The recording has reached the size limit and has been automatically stopped.",
